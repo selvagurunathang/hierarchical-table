@@ -1,0 +1,26 @@
+.hierarchicalTable {
+    .heading {
+        text-align: center;
+        margin: 0;
+    }
+
+    .tableContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        table {
+            margin: 20px 0px;
+
+            tr {
+                text-align: center;
+
+                td,
+                th {
+                    padding: 5px 5px;
+                    border: 1px solid;
+                }
+            }
+        }
+    }
+}
